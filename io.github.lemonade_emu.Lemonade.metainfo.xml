@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.lemonade_emu.Lemonade</id>
+  <name>Lemonade</name>
+  <summary>Nintendo 3DS emulator</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0</project_license>
+  <content_rating type="oars-1.1">
+    <content_attribute id="social-chat">moderate</content_attribute>
+  </content_rating>
+  <description>
+    <p>Lemonade is an open-source Nintendo 3DS emulator/debugger "fork" written in C++. It is written with portability in mind, with builds actively maintained for Windows, Linux and macOS.</p>
+    <p>Lemonade plans to add new features/enhacments on top of the __base__ emulator which was taken down by their team</p>
+  </description>
+  <launchable type="desktop-id">io.github.lemonade_emu.Lemonade.desktop</launchable>
+  <provides>
+    <binary>lemonade-qt</binary>
+    <id>lemonade-qt.desktop</id>
+  </provides>
+  <url type="homepage">https://lemonade-emu.github.io/</url>
+  <url type="contact">https://discord.gg/kKKantKn</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://github.com/Lemonade-emu/flathub/blob/7d08087fc1edf6204fdd923418561c06b6955492/screenshots/lemonade_flathub-2.png?raw=true</image>
+      <caption>Lemonade running a game</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://github.com/Lemonade-emu/flathub/blob/7d08087fc1edf6204fdd923418561c06b6955492/screenshots/lemonade_flathub-1.png?raw=true</image>
+      <caption>Lemonade UX 1</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://github.com/Lemonade-emu/flathub/blob/7d08087fc1edf6204fdd923418561c06b6955492/screenshots/lemonade_flathub-3.png?raw=true</image>
+      <caption>Lemonade UX 2</caption>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="2.1" date="2024-04-06">
+      <description>
+      <p>Lemonade ALPHA 2.1 HOTFIX Update</p>
+        <ul>
+          <li>Minor OpenGL and JIT improvements</li>
+          <li>Switched Anaglyph shader technique from Dubois to Rendepth</li>
+        </ul>
+    </description>
+  </release>
+</releases>
+  <categories>
+    <category>Game</category>
+    <category>Emulator</category>
+  </categories>
+  <developer_name>Lemonade-Emu Team</developer_name>
+</component>
